@@ -6,7 +6,7 @@ body{
     flex-direction: column;
     align-items: center;
 }
-.weatherform{
+.weatherForm{
     margin: 20px;
 }
 .cityInput{
@@ -28,7 +28,7 @@ button[type="submit"]{
     cursor: pointer;
 }
 button[type="submit"]:hover{
-    background-color: hs1(122, 39%, 40%);
+    background-color: hsl(122, 39%, 40%);
 }
 .card{
     background: linear-gradient(180deg, hsl(210, 100%, 75%), hsl(40, 100%, 75%));
@@ -37,7 +37,7 @@ button[type="submit"]:hover{
     box-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.5);
     min-width: 300px;
     display: flex;
-    flex-direction: columns;
+    flex-direction: column;
     align-items: center;
 }
 h1{
