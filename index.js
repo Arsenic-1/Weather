@@ -1,7 +1,7 @@
 const wF = document.querySelector(".weatherForm"),
       cI = document.querySelector(".cityInput"),
       c = document.querySelector(".card"),
-      aK = "e5d86a47200bcb8965f6b247e85b893f";
+      aK = "";
 
 wF?.addEventListener("submit", async e => {
     e.preventDefault();
